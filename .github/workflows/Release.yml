@@ -1,9 +1,13 @@
 name: GitHub Release with APKs
 
+# on:
+#   push:
+#     tags:
+#     - 'v*'
 on:
   push:
-    tags:
-    - 'v*'
+    branches: [ main ]
+    
 env:
   compose_store_password: ${{ secrets.COMPOSE_STORE_PASSWORD }}
   compose_key_alias: ${{ secrets.COMPOSE_KEY_ALIAS }}
