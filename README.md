@@ -13,7 +13,6 @@ You can clone this repository or import the
 project from Android Studio following the steps
 [here](https://developer.android.com/jetpack/compose/setup#sample).
 
-
 🧬 Samples
 ------------
 
